@@ -1,0 +1,19 @@
+{
+  "environment": "local SQLite; single database; regional workers emulated",
+  "accepted_events": 20000,
+  "ingestion_seconds": 1.125,
+  "local_ingestion_events_per_second": 17784.2,
+  "processing_with_faults_seconds": 3.59,
+  "local_processing_events_per_second": 5571.0,
+  "lost_orders": 0,
+  "unexpected_effects": 0,
+  "ledger_events": 20000,
+  "duplicate_deliveries_suppressed": 7000,
+  "amount_conserved": true,
+  "poison_attempts": 5,
+  "dead_letter_events": 1,
+  "restore_identity_match": true,
+  "aws_rto_seconds": null,
+  "aws_rpo_seconds": null,
+  "verdict": "PASS"
+}

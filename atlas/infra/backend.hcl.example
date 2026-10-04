@@ -1,0 +1,5 @@
+bucket       = "YOUR-ATLAS-TERRAFORM-STATE"
+key          = "atlas/terraform.tfstate"
+region       = "eu-west-1"
+encrypt      = true
+use_lockfile = true

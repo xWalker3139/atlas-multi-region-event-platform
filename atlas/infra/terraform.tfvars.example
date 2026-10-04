@@ -1,0 +1,8 @@
+name              = "atlas"
+primary_region    = "eu-west-1"
+secondary_region  = "eu-central-1"
+domain            = "atlas.example.com"
+zone_id           = "REPLACE_WITH_OWNED_ZONE"
+engine_version    = "16.6" # Example only. Choose a currently supported version with tools/preflight.py.
+instance_class    = "db.r6g.large"
+deletion_protection = true

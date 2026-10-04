@@ -1,0 +1,10 @@
+{
+  "local_unit_tests_passed": 21,
+  "postgres_tests_skipped": 2,
+  "python_syntax": "PASS",
+  "shell_syntax": "PASS",
+  "terraform_validate": "NOT RUN: Terraform unavailable in execution environment",
+  "aws_deployment": "NOT RUN: no AWS deployment performed",
+  "aws_throughput_rto_rpo": "NOT MEASURED",
+  "ci_workflow": "provided; PostgreSQL and Terraform checks run on GitHub Actions"
+}
